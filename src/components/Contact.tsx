@@ -55,10 +55,10 @@ const Contact = ({ lang }: ContactProps) => {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-emerald-500/10 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6">
-        <div className="glass p-12 md:p-20 rounded-[40px] relative overflow-hidden">
+        <div className="glass p-6 sm:p-12 md:p-20 rounded-2xl md:rounded-[40px] relative overflow-hidden">
           <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-emerald-500/5 rounded-full blur-[100px]" />
 
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div>
               <SectionHeading title={t.contact.title} subtitle={t.contact.subtitle} />
               <p className="text-zinc-400 mb-12 leading-relaxed">
@@ -72,7 +72,7 @@ const Contact = ({ lang }: ContactProps) => {
                   </div>
                   <div>
                     <div className="text-xs font-mono text-zinc-500 uppercase tracking-widest">{t.contact.email}</div>
-                    <div className="font-bold group-hover:text-emerald-400 transition-colors">ISC.CRISTIAN.PEREZ.54@GMAIL.com</div>
+                    <div className="font-bold group-hover:text-emerald-400 transition-colors break-all text-sm sm:text-base">ISC.CRISTIAN.PEREZ.54@GMAIL.com</div>
                   </div>
                 </a>
 
@@ -133,7 +133,7 @@ const Contact = ({ lang }: ContactProps) => {
                     className="space-y-6"
                     onSubmit={handleFormSubmit}
                   >
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <label className="text-xs font-mono text-zinc-500 uppercase tracking-widest">{t.contact.form.name}</label>
                         <input required name="name" type="text" className="w-full bg-white/5 border border-white/10 rounded-xl p-4 focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder={t.contact.form.placeholderName} />
