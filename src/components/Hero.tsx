@@ -104,7 +104,7 @@ const Hero = ({ lang }: HeroProps) => {
                 <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 <div className="w-full h-full rounded-full overflow-hidden relative group">
                   <img
-                    src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/29205b89f25bec59a6746a451ba56c77~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ada3e8b3&x-expires=1772845200&x-signature=weRYQuv9HDfkAy5IFgkzOR7e0Ks%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my"
+                    src="https://avatars.githubusercontent.com/u/25797905?v=4"
                     alt="Cristian Perez"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-110"
